@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600;700&display=swap');
+
+/*********Header Navbar************/
+.nav-link, .nav-link:hover {
+    font-size: 1.2rem;
+    margin: 0 0.5rem 0 0;
+    font-weight: 600;
+    color: white;
+    padding: 0.25rem 0.3rem !important;
+    border-radius: 0.25rem;
+}
+
+.btn-group {
+    margin-block-end: 10px;
+    float: left;
+}
+
+.dropbtn .dropdown:hover {
+    background-color: #0d6efd;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.homeWrapper .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    /*top: 50px;*/
+    border-radius: 5px;
+    color: #000 !important;
+}
+
+    .homeWrapper .dropdown-content a {
+        float: none;
+        color: #0d6efd;
+        font-weight: 600;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        .homeWrapper .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+.homeWrapper .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/***************Home or Index css***********/
+.btn-check:focus + .btn-light, .btn-light:focus, .navbar-toggler:focus,
+.btn:focus, .btn:active, .form-control:focus, .form-control:active, a:-webkit-any-link:focus-visible {
+    box-shadow: none;
+    outline: none;
+}
+
+.w150 {
+    width: 150px;
+}
+
+.w200 {
+    width: 150px;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.w40 {
+    width: 40px;
+}
+
+.w30 {
+    width: 30px;
+}
+
+.wh80 {
+    width: 5rem;
+    height: 5rem;
+}
+
+.navbar-brand {
+}
+
+    .navbar-brand .logoImage {
+        border: 2px solid #fff;
+        margin: 0;
+        width: 65px;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.logoText {
+    line-height: 30px;
+    font-size: 2rem;
+    padding-left: 8px;
+}
+
+.featureWrapper .ser1 {
+    min-height: 310px;
+}
+
+.navbar-toggler:hover {
+    background: #fff;
+}
+
+span.typeData {
+    font-size: 1.2rem;
+}
+
+.homeWrapper .carousel-item {
+    max-height: 100vh;
+}
+
+.homeWrapper .carousel-indicators {
+    margin-bottom: 5.5rem !important;
+}
+
+.homesliderImage1, .homesliderImage2, .homesliderImage3 {
+    /*background: rgb(13 110 253 / 34%) url(../../../images/Home/slider1.jpg);*/
+    background-blend-mode: multiply;
+    background-size: cover !important;
+    background-position: center;
+    height: calc(100vh);
+    /*background: rgb(13 110 253 / 34%);*/
+}
+
+.homesliderImage1 {
+    background-image: url(../../../images/Home/slider1.jpg);
+}
+
+.homesliderImage2 {
+    background-image: url(../../../images/Home/slider2.jpg);
+}
+
+.homesliderImage3 {
+    background-image: url(../../../images/Home/slider3.jpg);
+}
+
+.homeWrapper .carousel-caption {
+    position: absolute;
+    right: unset;
+    bottom: unset;
+    left: 50%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.25);
+    padding: 50px;
+}
+
+ul.footerData li {
+    margin: 0 1.5rem 0 0 !important;
+}
+/************Login css**************/
+.loginWrapper {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-image: linear-gradient(180deg, #1E88E5, #fff);
+    background-repeat: no-repeat
+}
+
+span.eyeIcons {
+    cursor: pointer;
+}
+/************Reset password**************/
+.resetPassword {
+    width: 500px;
+    max-width: 100%;
+}
+
+.resetPasswordWrapper span.eyeIcons, .signupWrapper span.eyeIcons {
+    display: flex;
+}
+
+    .resetPasswordWrapper span.eyeIcons i, .signupWrapper span.eyeIcons i {
+        bottom: 27px;
+        cursor: pointer;
+        position: relative;
+    }
+
+/***************Common css**************/
+.btn-light, .btn-light:hover, .btn-light:active, .btn-light:visited, .btn-light:focus, .btn-check:focus {
+    background-color: white;
+    color: #0d6efd;
+    font-weight: 600;
+}
+
+.homeWrapper .card {
+    height: 100%;
+    border: 2px solid #0d6efd;
+}
+
+.fs-12 {
+    font-size: 1rem;
+}
+
+.minW100 {
+    min-width: 100px;
+}
+
+
+.minW160 {
+    min-width: 160px;
+}
+
+.textDecoration {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+    .textDecoration:hover, .colorBlue {
+        color: #0d6efd;
+    }
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.right10 {
+    right: 10px;
+    cursor: pointer;
+}
+
+.bottom10 {
+    bottom: 10px;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.3) !important;
+}
+
+.minmaxWidth420 {
+    min-width: 420px;
+    max-width: 420px;
+}
+
+.active {
+    background-color: #fff;
+    border-radius: 0.25rem;
+}
+
+    .active a {
+        color: #0d6efd !important;
+    }
+
+#navNavbarUl {
+    list-style: none;
+    width: 100px;
+    float: left;
+    text-align: center;
+    z-index: 2;
+}
+
+li {
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+/***************Header custom css************/
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    background-color: #0d6efd1c;
+}
+/**********Media****************/
+@media (min-width: 992px) {
+    section {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .minmaxWidth420 {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600;700&display=swap');
+
+.nav-link {
+    font-size: 1.25rem;
+    margin: 0.25rem .25rem 0;
+    font-weight: 600;
+    color: white;
+    padding: 10px !important;
+    border-radius: 0.25rem;
+}
+
+/*.nav-link:hover, .nav-link:focus {
+        background-color: white;
+    }*/
+
+.btn-light, .btn-light:hover, .btn-light:active, .btn-light:visited, .btn-light:focus, .btn-check:focus {
+    background-color: white;
+    color: #0d6efd;
+    font-weight: 600;
+}
+/*
+
+.ser {
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-left: 2px solid;
+    border-top: 2px solid;
+    border-style: outset;
+}*/
+
+.card {
+    height: 100%;
+    border: 2px solid #0d6efd;
+}
+
+/*.min input[type=text], .min input[type=email], .min input[type=tel], .min textarea {
+    margin: 20px;
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: 1px solid #0d6efd;
+    border-radius: 0.25rem;
+}*/
+
+.img-fluid1 {
+    width: 80px;
+    height: 80px;
+}
+
+.btn-group {
+    margin-block-end: 10px;
+    float: left;
+    height: 36px;
+}
+/*
+.pb-2 {
+    padding-bottom: 7.5rem !important;
+}
+
+.pt-4 {
+    padding-top: 10.5rem !important;
+}
+
+.py-5{
+    padding-top:4.7rem !important;
+    padding-bottom:3rem !important;
+}
+
+#features{
+    padding-top:6rem !important;
+    padding-bottom:3rem !important;
+}*/
+
+/*#about {
+    padding-top: 11rem !important;   
+}
+*/
+/*#contact{
+    padding-top:5.5rem !important;
+}
+*/
+.dropbtn .dropdown:hover {
+    background-color: #0d6efd;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    /*top: 50px;*/
+    border-radius: 5px;
+    color: #000 !important;
+}
+
+    .dropdown-content a {
+        float: none;
+        color: #0d6efd;
+        font-weight: 600;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/***************Custom css***********/
+.btn-check:focus + .btn-light, .btn-light:focus, .navbar-toggler:focus,
+.btn:focus, .btn:active, .form-control:focus, .form-control:active, a:-webkit-any-link:focus-visible {
+    box-shadow: none;
+    outline: none;
+}
+
+.w150 {
+    width: 150px;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.w40 {
+    width: 40px;
+}
+
+.w30 {
+    width: 30px;
+}
+
+.navbar-brand {
+}
+
+    .navbar-brand .logoImage {
+        border: 2px solid #fff;
+        margin: 0;
+        width: 65px;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.logoText {
+    line-height: 30px;
+    font-size: 2rem;
+    padding-left: 8px;
+}
+
+.featureWrapper .ser1 {
+    min-height: 310px;
+}
+
+.navbar-toggler:hover {
+    background: #fff;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+span.typeData {
+    font-size: 1.2rem;
+}
+
+.carousel-item {
+    max-height: 103vh;
+}
+
+.carousel-indicators {
+    margin-bottom: 1.5rem !important;
+}
+
+.carousel-caption {
+    padding-top: 2rem;
+    padding-bottom: 1.75rem;
+    line-height: 1rem;
+}
+
+ul.footerData li {
+    margin: 0 1.5rem 0 0 !important;
+}
+
+.fs-12 {
+    font-size: 0.75rem;
+}
+
+.minW100 {
+    min-width: 100px;
+}
+/************Admin panel*************/
+.customTablespace table tr td, .customTablespace table tr th {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    section {
+        margin-top: 3rem;
+    }
+}

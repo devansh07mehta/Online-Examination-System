@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../../../js/customs.js" crossorigin="anonymous"></script>
+    <!--External CSS-->
+    <link href="../../../Css/home.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Home Page</title>
+</head>
+
+<body class="homeWrapper">
+    <!--Navbar Section-->
+    <nav class="navbar  navbar-expand-lg navbar-primary bg-primary sticky-top" id="navbarSection">
+        <div class="container-fluid" id="navTop">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <div class="logoImage1 rounded-circle">
+                    <!-- <img src="../../../Images/Home/logo.png" class="w100"> -->
+                    <img src="../../../Images/Home/logo-black.png" class="w200">
+                </div>
+                <!-- <div class="logoText text-white">Online<br> Exam</div> -->
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navNavbar"
+                    aria-controls="navNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="../../../Images/Home/menu.png" class="w30" />
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navNavbar">
+                <ul class="navbar-nav" id="navNavbarUl">
+                    <li class="nav nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav nav-item">
+                        <a class="nav-link" href="#type">Types</a>
+                    </li>
+                    <li class="nav nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav nav-item">
+                        <a class="nav-link" href="#about">About us</a>
+                    </li>
+                    <li class="nav nav-item">
+                        <a class="nav-link" href="#contact">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navNavbar">
+                <ul class="navbar-nav ">
+                    <li class="nav nav-item">
+                        <div class="btn-group pt-2">
+                            <a href="../../../Login.aspx">
+                                <button type="button" class="btn btn-light mx-2 minW100" style="border-radius: 5px; padding-inline: 20px">
+                                    Login
+                                    <i class="fa fa-sign-in"></i>
+                                </button>
+                            </a>
+
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Section Home-->
+    <section class="d-block mt-0" id="home">
+        <div class="carousel slide" data-bs-ride="carousel" id="Photos">
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#Photos" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#Photos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#Photos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="homesliderImage1" style="background-image: url(../../../images/Home/slider1.jpg); ">
+                        <div class="carousel-caption">
+                            <h1 class="mb-0"><b>Online Examination</b></h1>
+                            <p class="mb-0">Evaluate Student's Ability of Learning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="homesliderImage1" style="background-image: url(../../../images/Home/slider2.jpg); ">
+                        <div class="carousel-caption">
+                            <h1 class="mb-0">Online Examination</h1>
+                            <p class="mb-0">Conduct Hassle-free Exams Online</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="homesliderImage1" style="background-image: url(../../../images/Home/slider3.jpg); ">
+                        <div class="carousel-caption">
+                            <h1 class="mb-0">Online Examination</h1>
+                            <p class="mb-0">Achieve Greate Learning Outcomes!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Services Section-->
+    <section class="py-5" id="services">
+        <div class="my-md-5 container-fluid">
+            <div class="row justify-content-center">
+                <h2 class="text-center my-5">What Services we offer?</h2>
+                <div class="col-md-4 my-2">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="../../../Images/Home/Test.png" alt="">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center mt-3">
+                        <h4>Live Tests</h4>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <p class="mx-4 mt-2 text-center">
+                            Take Live test on Time, You can take the missed test from dashboard. Live Exams link appears only when the exam is live.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="../../../Images/Home/Question.png" alt="" class="img-fluid" />
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center mt-3">
+                        <h4>High Yield Questions</h4>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <p class="mx-4 mt-2 text-center">
+                            Register for the Exam you want to Appear. You can Register in single click for the Exam of your Choice from Dashboard.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="../../../Images/Home/Stat.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center mt-3">
+                        <h4>Insightful Analytics</h4>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <p class="mx-4 mt-2 text-center">
+                            Dashboard in true sense helps you to analyze your performance, Everything you do at one place. Your real preparation pal.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="../../../Images/Home/accurate-icon.jpg" alt="" class="img-fluid wh80" />
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center mt-3">
+                        <h4>Accurate Results</h4>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <p class="mx-4 mt-2 text-center">
+                            Dashboard in true sense helps you to analyze your performance,
+                            Everything you do at one place. Your real preparation pal.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Question Type Section-->
+    <section class="bg-light py-5" id="type">
+        <div class="container my-md-3">
+            <h2 class=" text-center py-5 px-2 px-md-5">
+                Test Student Online For A Variety Of Exams <br>Our Examination Offers Distinct Question Types
+            </h2>
+            <div class="bg-white border shadow-sm">
+                <div class="bg-primary">
+                    <h4 class="text-center text-white py-4 mb-0">We Support The Following Question Types And Many More</h4>
+                </div>
+                <div class="row px-md-5 mx-auto">
+                    <div class="col-md-4">
+                        <p class="mt-5">
+                            <img src="../../../Images/Home/multiple.jpg" alt="" width="40" class="me-2">
+                            <span class="typeData">Multiple Choice Questions</span>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="mt-5">
+                            <img src="../../../Images/Home/short.jpg" alt="" width="40" class="me-2">
+                            <span class="typeData">Short Question Answer</span>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="mt-5">
+                            <img src="../../../Images/Home/answer.jpg" alt="" width="40" class="me-2">
+                            <span class="typeData">Long Question Answer</span>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="mt-5">
+                            <img src="../../../Images/Home/fill.jpg" alt="" width="50" class="me-2">
+                            <span class="typeData">Fill In The Blanks</span>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="mt-5 ">
+                            <img src="../../../Images/Home/tf.jpg" alt="" width="40" class="me-2 mb-2">
+                            <span class="typeData">True Or False</span>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="mt-5">
+                            <img src="../../../Images/Home/one.jpg" alt="" width="38" class="me-2">One Word Answer
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button type="button" class="btn btn-primary px-3 py-2 my-5">Get Your Queries Answer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Features Section-->
+    <section class="p-2 py-5 featureWrapper" id="features">
+        <div class="container-fluid my-5">
+            <h2 class="text-center">Our Bleeding Edge Features</h2>
+            <div class="row mt-5 ">
+                <div class="col-lg-3 mb-3">
+                    <div class="text-center ser1 shadow-sm bg-light py-4 border">
+                        <h5 class="text-primary">Live-Video Monitoring</h5>
+                        <hr>
+                        <div class="media-body">
+                            <p class="mt-3 mx-3 text-center">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro placeat vitae in, officiis voluptate quos veritatis optio labore nostrum aliquam tenetur! Modi, ullam voluptatem animi natus nemo ex ratione dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="text-center ser1 shadow-sm bg-light py-4 border">
+                        <h5 class="text-primary">AI Proctoring</h5>
+                        <hr>
+                        <div class="media-body">
+                            <p class="mt-3 mx-3 text-center">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro placeat vitae in, officiis voluptate quos veritatis optio labore nostrum aliquam tenetur! Modi, ullam voluptatem animi natus nemo ex ratione dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="text-center ser1 shadow-sm bg-light py-4 border">
+                        <h5 class="text-primary">Lock Down Browser</h5>
+                        <hr>
+                        <div class="media-body">
+                            <p class="mt-3 mx-3 text-center">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro placeat vitae in, officiis voluptate quos veritatis optio labore nostrum aliquam tenetur! Modi, ullam voluptatem animi natus nemo ex ratione dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="text-center ser1 shadow-sm bg-light py-4 border">
+                        <h5 class="text-primary">Date & Time Restriction</h5>
+                        <hr>
+                        <div class="media-body">
+                            <p class="mt-3 mx-3 text-center">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro placeat vitae in, officiis voluptate quos veritatis optio labore nostrum aliquam tenetur! Modi, ullam voluptatem animi natus nemo ex ratione dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="text-center ser1 shadow-sm bg-light py-4 border">
+                        <h5 class="text-primary">Remote Proctoring</h5>
+                        <hr>
+                        <div class="media-body">
+                            <p class="mt-3 mx-3 text-center">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro placeat vitae in, officiis voluptate quos veritatis optio labore nostrum aliquam tenetur! Modi, ullam voluptatem animi natus nemo ex ratione dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="text-center ser1 shadow-sm bg-light py-4 border">
+                        <h5 class="text-primary">Audit Proctoring</h5>
+                        <hr>
+                        <div class="media-body">
+                            <p class="mt-3 mx-3 text-center">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Porro placeat vitae in, officiis voluptate quos veritatis optio labore nostrum aliquam tenetur! Modi,
+                                ullam voluptatem animi natus nemo ex ratione dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="text-center ser1 shadow-sm bg-light py-4 border">
+                        <h5 class="text-primary">End to End Data Encryption</h5>
+                        <hr>
+                        <div class="media-body">
+                            <p class="mt-3 mx-3 text-center">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Porro placeat vitae in, officiis voluptate quos veritatis optio labore nostrum aliquam tenetur! Modi,
+                                ullam voluptatem animi natus nemo ex ratione dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="text-center ser1 shadow-sm bg-light py-4 border">
+                        <h5 class="text-primary">Random Shuffling of Questions</h5>
+                        <hr>
+                        <div class="media-body">
+                            <p class="mt-3 mx-3 text-center">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Porro placeat vitae in, officiis voluptate quos veritatis optio labore nostrum aliquam tenetur! Modi,
+                                ullam voluptatem animi natus nemo ex ratione dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="text-center ser1 shadow-sm bg-light py-4 border">
+                        <h5 class="text-primary">Static Data Analysis</h5>
+                        <hr>
+                        <div class="media-body">
+                            <p class="mt-3 mx-3 text-center">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Porro placeat vitae in, officiis voluptate quos veritatis optio labore nostrum aliquam tenetur! Modi,
+                                ullam voluptatem animi natus nemo ex ratione dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="text-center ser1 shadow-sm bg-light py-4 border">
+                        <h5 class="text-primary">IP-Based Authentication & Authorization</h5>
+                        <hr>
+                        <div class="media-body">
+                            <p class="mt-3 mx-3 text-center">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Porro placeat vitae in, officiis voluptate quos veritatis optio labore nostrum aliquam tenetur! Modi,
+                                ullam voluptatem animi natus nemo ex ratione dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="text-center ser1 shadow-sm bg-light py-4 border">
+                        <h5 class="text-primary">Live Chat Support</h5>
+                        <hr>
+                        <div class="media-body">
+                            <p class="mt-3 mx-3 text-center">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Porro placeat vitae in, officiis voluptate quos veritatis optio labore nostrum aliquam tenetur! Modi,
+                                ullam voluptatem animi natus nemo ex ratione dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="text-center ser1 shadow-sm bg-light py-4 border">
+                        <h5 class="text-primary">Anti-Cheat</h5>
+                        <hr>
+                        <div class="media-body">
+                            <p class="mt-3 mx-3 text-center">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Porro placeat vitae in, officiis voluptate quos veritatis optio labore nostrum aliquam tenetur! Modi,
+                                ullam voluptatem animi natus nemo ex ratione dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Us Section-->
+    <section class="p-2 pt-5 bg-light" id="about">
+        <div class="container-fluid my-2 py-5">
+            <h2 class="text-center">Why Are We the Ideal Partner For Your Online Exams?</h2>
+
+            <div class="row mt-2 mt-md-5 justify-content-center">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center my-3">
+                                <img src="../../../Images/Home/Student-professor.jpg" alt="" width="70">
+                            </div>
+
+                            <div class="card-tittle">
+                                <h4 class="text-center">Seamless Student and Professor Experience</h4>
+                            </div>
+
+                            <div class="card-text">
+                                <p class="text-center text-secondary">Easy to Use, Demos and Handholding</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center my-3">
+                                <img src="../../../Images/Home/Support.jpg" alt="" width="70">
+                            </div>
+
+                            <div class="card-tittle">
+                                <h4 class="text-center">24*7 Support from Our Online Exam Experts</h4>
+                            </div>
+
+                            <div class="card-text">
+                                <p class="text-center text-secondary">We are here for you, always!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center my-3">
+                                <img src="../../../Images/Home/Proctoring.jpg" alt="" width="70">
+                            </div>
+
+                            <div class="card-tittle">
+                                <h4 class="text-center">The Best-in-class Proctoring Technology</h4>
+                            </div>
+
+                            <div class="card-text">
+                                <p class="text-center text-secondary">We offer an industry-leading suite of AI-based proctoring tools</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center my-3">
+                                <img src="../../../Images/Home/Robust-data-security.jpg" alt="" width="70">
+                            </div>
+
+                            <div class="card-tittle">
+                                <h4 class="text-center">Robust Data Security</h4>
+                            </div>
+
+                            <div class="card-text">
+                                <p class="text-center text-secondary">Data encryption, secure data hosting, compliant with international standards</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </section>
+
+    <!--Contact us Section-->
+    <section class="p-2 pb-5 mt-5" id="contact">
+        <h2 class="text-center text-primary mt-5">Get In Touch</h2>
+        <h2 class="text-center mt-2">You Are Always Welcomed!</h2>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <p class="text-primary">
+                        <img src="../../../Images/Home/email.jpg" alt="" width="50" class="mx-2 mb-2">
+                        <span class="typeData">online.exam@gmail.com</span>
+                    </p>
+                </div>
+
+                <div class="col-md-4 d-flex justify-content-center">
+                    <p class="text-primary">
+                        <img src="../../../Images/Home/call.jpg" alt="" width="38" class="mx-2 mb-2">
+                        <span class="typeData">+91 8369515644</span>
+                    </p>
+                </div>
+
+                <div class="col-md-4 d-flex justify-content-center">
+                    <p class="text-primary">
+                        <img src="../../../Images/Home/address.jpg" alt="" width="40" class="mx-2 mb-3">
+                        <span class="typeData">Mumbai, Maharashtra</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact pb-2 px-md-5 px-2">
+
+            <form action="../Contact_Us_Form/Contact Us.aspx" method="post" class="min container">
+                <div class="row">
+                    <div class="col-md-10 mx-auto">
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <div>
+                                    <input type="text" class="form-control" placeholder="Enter Full Name" name="fn" pattern="([A-Z][a-z]{2,} )([A-Z][a-z]{2,} )?([A-Z][a-z]{3,})" title="Full Name must have first name and last name as mandatory and middle name as optional where first letter must be capital each of the first name, middle name and last name respectively." required>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div>
+                                    <input type="tel" class="form-control" placeholder="Enter Mobile Number" name="mob" maxlength="10" data-accepts="onlyNumeric" pattern="[6789][0-9]{9}" title="Contact number must start with 6,7,8 or 9th digit and must be of total 10 digits ranging from 0-9." required>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div>
+                                    <input type="email" class="form-control" placeholder="Enter Email ID" name="eid" pattern="^[a-z][-_.a-z0-9]{5,29}@gmail\.com$" title="Email Id must match the following patterns: abc123@gmail.com or abc_123@gmail.com or abc.123@gmail.com or abc-123@gmail.com or abcabc@gmail.com" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div>
+                                    <textarea rows="3" class="form-control undefined" placeholder="Enter Query" name="qr" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mx-auto py-md-4">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <input type="submit" class="btn py-2 px-4 btn-primary text-center" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="container-fluid bg-primary">
+        <div class="row">
+            <div class="col-12 p-3">
+                <ul class="list-inline list-unstyle d-flex align-items-center justify-content-center mb-2 footerData">
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/devansh_mehta01"><img src="../../../Images/Home/ig.png" alt="" width="40px"></a>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/devansh.mehta.794"><img src="../../../Images/Home/fb.png" alt="" width="35px"></a>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/devansh_rajeev"><img src="../../../Images/Home/twitter.png" alt="" width="30px"></a>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/devansh-mehta-36966621a"><img src="../../../Images/Home/linkedin.png" alt="" width="30px"></a>
+                    </li>
+                </ul>
+                <span class="text-white fs-15 d-flex text-center justify-content-center">© Copyrights 2022. Online Examination System. All Rights Reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
+<script type="text/javascript">
+    $(document)
+    $('#navNavbar .navbar-nav a').on('click', function () {
+        $('#navNavbar .navbar-nav').find('li.active').removeClass('active');
+        $(this).parent('li').addClass('active');
+    });
+</script>
